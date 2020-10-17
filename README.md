@@ -1,5 +1,11 @@
 # CodeQuiz
-![rippleBee](https://user-images.githubusercontent.com/60808266/92357147-32f2e400-f109-11ea-861e-93efe60f1781.jpg)
+
+<p align = "center"> 
+<img src = "https://img.shields.io/badge/License-MIT-blue.svg"/> &nbsp;&nbsp;
+<img src ="https://img.shields.io/badge/Develop%20with-ArnobMahmud-1f425f.svg"/> &nbsp;&nbsp;
+<img src = "https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg"/> <br> <br>
+<img src = "https://user-images.githubusercontent.com/60808266/92357147-32f2e400-f109-11ea-861e-93efe60f1781.jpg"> 
+</p>
 
 A new Application by RippleBee!
 

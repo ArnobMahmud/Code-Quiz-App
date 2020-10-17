@@ -34,7 +34,7 @@ class _HomePage extends State<HomePage> {
         ],
       ),
       body: Container(
-        color: Color(0xF123ee2eec),
+        color: Color(0xFFFCFFDB),
           child: SafeArea(
             child: Builder(
               builder: (BuildContext context) => Container(

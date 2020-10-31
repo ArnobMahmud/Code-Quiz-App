@@ -1,7 +1,7 @@
-import 'dart:ui';
-import 'package:codequiz/main.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:codequiz/model/utils.dart';
 import 'package:flutter/material.dart';
+
+import '../main.dart';
 
 class DevelopersPage extends StatelessWidget {
   @override
@@ -131,12 +131,16 @@ class DevelopersPage extends StatelessWidget {
                     fontSize: 17,
                   ),
                 ),
-                trailing: IconButton(
-                    icon: Icon(
-                      Icons.message_outlined,
-                      color: Color(0xFF504682),
-                    ),
-                    onPressed: () {}),
+                trailing: GestureDetector(
+                  onTap: () => Utils.openLink(
+                      url: 'https://www.facebook.com/arnob.mahmud.am'),
+                  child: IconButton(
+                      icon: Icon(
+                        Icons.message_outlined,
+                        color: Color(0xFF504682),
+                      ),
+                      onPressed: () {}),
+                ),
               ),
             ),
           ),
@@ -166,12 +170,16 @@ class DevelopersPage extends StatelessWidget {
                       fontFamily: "Kufam",
                       fontSize: 17),
                 ),
-                trailing: IconButton(
-                    icon: Icon(
-                      Icons.message_outlined,
-                      color: Color(0xFF504682),
-                    ),
-                    onPressed: () {}),
+                trailing: GestureDetector(
+                  onTap: () => Utils.openLink(
+                      url: 'https://www.facebook.com/fahim.muntashir.fm'),
+                  child: IconButton(
+                      icon: Icon(
+                        Icons.message_outlined,
+                        color: Color(0xFF504682),
+                      ),
+                      onPressed: () {}),
+                ),
               ),
             ),
           ),

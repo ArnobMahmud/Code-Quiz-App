@@ -1,6 +1,6 @@
-import 'package:codequiz/pages/home-page.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'pages/home-page.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {

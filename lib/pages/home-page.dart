@@ -2,18 +2,18 @@ import 'package:codequiz/database/temp_db.dart';
 import 'package:flutter/material.dart';
 import 'package:codequiz/pages/developer_page.dart';
 
-class HomePage extends StatefulWidget {
+class MyHomePage extends StatefulWidget {
   @override
-  _HomePage createState() => _HomePage();
+  _MyHomePage createState() => _MyHomePage();
 }
 
-class _HomePage extends State<HomePage> {
+class _MyHomePage extends State<MyHomePage> {
   int _currentIndex = 0;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Color(0xFF442C2E),
+        backgroundColor: Color(0xFF442C3E),
         title: Text(
           'CodeQuiz',
           style: TextStyle(
@@ -26,7 +26,7 @@ class _HomePage extends State<HomePage> {
         elevation: 19,
         actions: [
           IconButton(
-              icon: Icon(Icons.arrow_forward_ios),
+              icon: Icon(Icons.developer_board_outlined),
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => DevelopersPage()));
@@ -34,7 +34,7 @@ class _HomePage extends State<HomePage> {
         ],
       ),
       body: Container(
-        color: Color(0xFFFCFFDB),
+          color: Color(0xFFFCFFCE),
           child: SafeArea(
             child: Builder(
               builder: (BuildContext context) => Container(
@@ -77,10 +77,10 @@ class _HomePage extends State<HomePage> {
         decoration: BoxDecoration(
             boxShadow: [
               BoxShadow(
-                offset: Offset(3, 5),
-                blurRadius: 18,
-                color: Color(0xFFb3635b),
-                spreadRadius: 2,
+                offset: Offset(4, 5),
+                blurRadius: 17,
+                color: Color(0xFFb36349),
+                spreadRadius: 1.4,
               )
             ],
             color: Color(0xFFb3635b),
@@ -249,21 +249,27 @@ class _HomePage extends State<HomePage> {
       });
       debugPrint('yes correct');
       final snackBar = SnackBar(
-        backgroundColor: Color(0xFF2a710b),
+        backgroundColor: Colors.green.withOpacity(0.9),
         duration: Duration(milliseconds: 500),
         content: Text('Correct',
-            style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            style: TextStyle(
+                fontSize: 20,
+                letterSpacing: 1,
+                fontFamily: 'Kufam',
+                fontWeight: FontWeight.w400)),
       );
       Scaffold.of(context).showSnackBar(snackBar);
     } else {
       debugPrint('incorrect');
       final snackBar = SnackBar(
-        backgroundColor: Color(0xFFd31d00),
+        backgroundColor: Colors.red.withOpacity(0.9),
         duration: Duration(milliseconds: 500),
         content: Text('Wrong',
             style: TextStyle(
               fontSize: 20,
-              fontWeight: FontWeight.bold,
+              letterSpacing: 1,
+              fontFamily: 'Kufam',
+              fontWeight: FontWeight.w400,
             )),
       );
       Scaffold.of(context).showSnackBar(snackBar);

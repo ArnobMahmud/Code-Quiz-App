@@ -1,13 +1,12 @@
 # CodeQuiz
 
-<p align = "center"> 
-<img src = "https://img.shields.io/badge/License-MIT-blue.svg"/> &nbsp;&nbsp;
-<img src ="https://img.shields.io/badge/Develop%20with-ArnobMahmud-1f425f.svg"/> &nbsp;&nbsp;
-<img src = "https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg"/> <br> <br>
-<img src = "https://user-images.githubusercontent.com/60808266/92357147-32f2e400-f109-11ea-861e-93efe60f1781.jpg"> 
-</p>
+A new Application by RippleBee! <br>
+Test  your  programming  and  coding  skills  with  quizzes  and  prepare  yourself for  the  job  interview!
 
-A new Application by RippleBee!
+<img src= "https://img.shields.io/badge/License-MIT-critical?style=plastic&logo=appveyor">   &nbsp; [![develop-with-arnob](https://img.shields.io/badge/Develop%20With-Arnob%20Mahmud-9cf?style=plastic&logo=visual-studio-code&labelColor=292844&logoColor=007ACC)](https://github.com/ArnobMahmud/)
+  
+![codequiz@3x](https://user-images.githubusercontent.com/60808266/100720430-2f10ee00-33e8-11eb-8e58-0da135a66bd9.png)
+</p>
 
 ## Getting Started
 

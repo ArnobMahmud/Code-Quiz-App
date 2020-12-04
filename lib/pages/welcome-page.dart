@@ -73,7 +73,8 @@ class _WelcomePageState extends State<WelcomePage> {
                           context,
                           MaterialPageRoute(
                               builder: (context) => MyHomePage()));
-                    }),
+                    }
+                  ),
               ],
             );
           } else {
@@ -138,10 +139,14 @@ class _WelcomePageState extends State<WelcomePage> {
                           context,
                           MaterialPageRoute(
                               builder: (context) => MyHomePage()));
-                    }),
-              ],
-            ));
+                    }
+                  ),
+                ],
+              )
+            );
           }
-        }));
+        }
+      )
+    );
   }
 }
